@@ -6,3 +6,5 @@ Working electron autoupdater app.
 4) When starting the app again, it will be updated to new version.
 
 To publish new release, you MUST increment the version in package.json, then run the command `GH_TOKEN=YOUR_TOKEN_HERE npm run deploy`. This publishes a new release under new version number.
+
+Make your own GH_TOKEN here: https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
